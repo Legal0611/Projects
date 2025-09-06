@@ -126,8 +126,8 @@ while running:
 
     # Draw custom crosshair
     mouse_x, mouse_y = pygame.mouse.get_pos()
-    crosshair_length = 6
-    crosshair_thickness = 2
+    crosshair_length = 4
+    crosshair_thickness = 3
 
     pygame.draw.line(screen, GREEN,
                      (mouse_x - crosshair_length, mouse_y),
@@ -161,5 +161,6 @@ pygame.display.flip()
 pygame.time.wait(3000)
 
 pygame.quit()
+
 
 
